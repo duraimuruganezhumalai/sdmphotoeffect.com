@@ -1,0 +1,25 @@
+$primary-color: blue;
+$secondary-color: green;
+$margin-top: 25px;
+
+$font-weight : 550;
+$white-color : #FFF;
+$footer-color: #fc5d0952;
+$margin-left: 14rem;
+
+
+.font-weight{
+    font-weight: $font-weight;
+}
+.footer-bg{
+    background-color: $footer-color;
+}
+#social-icon-color{
+    background-color: $footer-color;
+}
+.teal{
+    color: $footer-color;
+}
+.signin-ml{
+margin-left: $margin-left;
+}
