@@ -9,11 +9,14 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.form-group{
+  margin-bottom: 2.5rem;
+}
    .contact1 {
     width: 100%;
     min-height: 100%;
     padding: 15px;
-    background: #ff690078;
+    // background: #ff690078;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -37,6 +40,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 90px 130px 88px 148px;
+    box-shadow: 2px 1px 15px #888888a1;
   }
   .overlay{
     background-color: #000;
