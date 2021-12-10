@@ -1,3 +1,10 @@
+.form-control.ng-touched.ng-invalid {
+  border:1px solid red;
+ }
+ .form-control.ng-touched.ng-valid {
+  border:1px solid green;
+ }
+ 
 .img-center {
   position: relative;
   text-align: center;
@@ -10,7 +17,7 @@
   transform: translate(-50%, -50%);
 }
 .form-group{
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
    .contact1 {
     width: 100%;
@@ -51,6 +58,7 @@
   }
   
   .contact1-pic img {
+    position: relative;
     max-width: 100%;
   }
   
