@@ -138,4 +138,7 @@
       padding: 90px 15px 88px 15px;
     }
   }
-  
+  .form-control:focus{
+    border-color:none !important;
+    box-shadow:none !important;
+    }
